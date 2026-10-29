@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" role="img" aria-labelledby="title desc">
+  <title id="title">Bunny Hop Adventure logo</title>
+  <desc id="desc">A polished pink storybook logo with an illustrated bunny, florals, and the words Bunny Hop Adventure.</desc>
+  <defs>
+    <linearGradient id="pink" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffb9d5"/><stop offset=".48" stop-color="#f36da6"/><stop offset="1" stop-color="#c93e7b"/></linearGradient>
+    <linearGradient id="ear" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffb6d1"/><stop offset="1" stop-color="#eb6f9f"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff0b5"/><stop offset=".5" stop-color="#e3b85d"/><stop offset="1" stop-color="#bb8438"/></linearGradient>
+    <radialGradient id="face" cx="38%" cy="29%"><stop stop-color="#fffdfc"/><stop offset="1" stop-color="#f9e8ed"/></radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="9" stdDeviation="9" flood-color="#8d315b" flood-opacity=".23"/></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="3"/></filter>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.4" fill="#f4b9ce" opacity=".32"/></pattern>
+  </defs>
+  <!-- ornamental silhouette -->
+  <path d="M500 28 C535 28 552 50 577 56 C610 65 634 46 663 58 C694 71 697 102 723 119 C749 136 780 129 800 153 C821 178 809 206 827 232 C846 259 878 268 884 300 C890 331 866 354 871 384 C876 416 901 439 891 469 C880 500 846 508 831 535 C815 563 819 594 791 611 C765 628 734 615 704 626 C674 638 658 665 626 663 C594 662 577 635 546 630 C516 625 488 642 459 630 C429 618 419 587 390 574 C362 561 330 571 306 551 C282 531 287 499 267 475 C248 451 216 442 209 411 C202 382 226 357 222 327 C218 297 193 273 203 244 C213 214 247 204 263 178 C279 152 276 121 301 101 C326 81 358 94 387 83 C417 72 435 47 466 49 C480 50 490 56 500 28Z" transform="translate(0,-13)" fill="#fff9fb" stroke="url(#gold)" stroke-width="5" filter="url(#shadow)"/>
+  <path d="M500 55 C530 54 548 73 573 79 C603 87 626 70 652 81 C679 92 683 119 706 134 C729 149 757 143 775 164 C793 185 783 210 799 233 C815 256 843 264 849 292 C855 320 834 341 838 368 C842 397 864 418 855 444 C846 471 816 480 803 504 C789 530 793 557 769 572 C746 588 718 575 692 585 C666 595 651 619 623 617 C595 616 579 592 552 588 C525 584 500 599 474 588 C448 577 439 549 414 537 C389 525 360 534 339 517 C318 499 322 470 304 449 C286 428 257 420 251 393 C245 366 266 344 262 317 C258 290 236 269 245 243 C254 217 284 208 298 185 C312 162 309 134 331 116 C353 98 381 109 407 99 C433 89 449 67 476 68 C486 68 493 72 500 55Z" transform="translate(0,-13)" fill="url(#dots)" stroke="#f4a6c3" stroke-width="2.5"/>
+  <!-- filigree side flourishes -->
+  <g fill="none" stroke="url(#gold)" stroke-width="3" stroke-linecap="round">
+    <path d="M290 290 C250 250 276 224 309 239 C331 249 330 268 317 277 C305 285 291 276 296 265"/><path d="M710 290 C750 250 724 224 691 239 C669 249 670 268 683 277 C695 285 709 276 704 265"/>
+    <path d="M300 373 C270 344 248 358 265 379 C278 394 296 387 292 375 M700 373 C730 344 752 358 735 379 C722 394 704 387 708 375"/>
+    <path d="M345 203 Q375 180 399 198 M655 203 Q625 180 601 198"/>
+  </g>
+  <!-- little blossoms -->
+  <g transform="translate(335 183)"><g fill="#f28bb2" stroke="#fff7fa" stroke-width="2"><ellipse cy="-11" ry="10" rx="6"/><ellipse cy="11" ry="10" rx="6"/><ellipse cx="-11" rx="10" ry="6"/><ellipse cx="11" rx="10" ry="6"/><ellipse cx="-8" cy="-8" rx="7" ry="5" transform="rotate(-45 -8 -8)"/><ellipse cx="8" cy="-8" rx="7" ry="5" transform="rotate(45 8 -8)"/><ellipse cx="-8" cy="8" rx="7" ry="5" transform="rotate(45 -8 8)"/><ellipse cx="8" cy="8" rx="7" ry="5" transform="rotate(-45 8 8)"/></g><circle r="5" fill="url(#gold)"/></g>
+  <g transform="translate(665 183) scale(.82)"><g fill="#f28bb2" stroke="#fff7fa" stroke-width="2"><ellipse cy="-11" ry="10" rx="6"/><ellipse cy="11" ry="10" rx="6"/><ellipse cx="-11" rx="10" ry="6"/><ellipse cx="11" rx="10" ry="6"/><ellipse cx="-8" cy="-8" rx="7" ry="5" transform="rotate(-45 -8 -8)"/><ellipse cx="8" cy="-8" rx="7" ry="5" transform="rotate(45 8 -8)"/><ellipse cx="-8" cy="8" rx="7" ry="5" transform="rotate(45 -8 8)"/><ellipse cx="8" cy="8" rx="7" ry="5" transform="rotate(-45 8 8)"/></g><circle r="5" fill="url(#gold)"/></g>
+  <!-- illustrated bunny -->
+  <g filter="url(#shadow)" stroke-linejoin="round">
+    <!-- ears -->
+    <path d="M440 210 C424 165 407 82 428 59 C446 39 467 69 477 111 L492 190Z" fill="url(#face)" stroke="#d985a5" stroke-width="5"/>
+    <path d="M449 172 C439 129 429 84 436 67 C449 75 458 120 466 162Z" fill="url(#ear)"/>
+    <path d="M530 192 C531 139 540 68 563 57 C589 46 592 80 582 121 L564 202Z" fill="url(#face)" stroke="#d985a5" stroke-width="5"/>
+    <path d="M548 164 C552 117 559 78 572 67 C577 82 568 128 559 171Z" fill="url(#ear)"/>
+    <!-- head and cheeks -->
+    <ellipse cx="500" cy="244" rx="79" ry="73" fill="url(#face)" stroke="#d985a5" stroke-width="5"/>
+    <ellipse cx="459" cy="269" rx="22" ry="13" fill="#f5a5bd" opacity=".53"/>
+    <ellipse cx="541" cy="269" rx="22" ry="13" fill="#f5a5bd" opacity=".53"/>
+    <!-- eyes -->
+    <ellipse cx="474" cy="235" rx="7" ry="11" fill="#56334a"/><ellipse cx="526" cy="235" rx="7" ry="11" fill="#56334a"/>
+    <circle cx="476" cy="232" r="2.5" fill="white"/><circle cx="528" cy="232" r="2.5" fill="white"/>
+    <path d="M491 254 Q500 247 509 254 Q500 266 491 254Z" fill="#dc6e95" stroke="#c55d84" stroke-width="1.5"/>
+    <path d="M500 264 Q494 274 485 271 M500 264 Q506 274 515 271" fill="none" stroke="#70465b" stroke-width="2.4" stroke-linecap="round"/>
+    <!-- forehead tuft -->
+    <path d="M475 181 Q481 158 493 176 Q502 151 511 176 Q525 159 530 184 Q504 171 475 181Z" fill="#fffdfc" stroke="#d985a5" stroke-width="3"/>
+    <!-- bow -->
+    <path d="M551 204 C566 187 586 190 581 208 C578 218 565 220 553 214 C565 224 560 239 550 235 C541 231 544 218 548 212Z" fill="url(#pink)" stroke="#b83f70" stroke-width="3"/>
+    <circle cx="551" cy="212" r="5" fill="url(#gold)" stroke="#fff5d5" stroke-width="1.5"/>
+    <!-- body/paws -->
+    <path d="M451 294 Q500 270 549 294 L569 353 Q500 374 431 353Z" fill="url(#face)" stroke="#d985a5" stroke-width="4"/>
+    <ellipse cx="464" cy="353" rx="28" ry="13" fill="#fffafc" stroke="#d985a5" stroke-width="3"/>
+    <ellipse cx="536" cy="353" rx="28" ry="13" fill="#fffafc" stroke="#d985a5" stroke-width="3"/>
+    <ellipse cx="500" cy="326" rx="23" ry="26" fill="#fff" opacity=".75"/>
+  </g>
+  <!-- floral garland at the bunny's feet -->
+  <path d="M405 370 Q455 390 500 377 Q547 392 595 370" fill="none" stroke="#6f9c70" stroke-width="4" stroke-linecap="round"/>
+  <g fill="#79ae7a"><path d="M435 380 Q413 363 418 355 Q437 357 442 375Z"/><path d="M465 383 Q449 398 440 391 Q445 376 462 377Z"/><path d="M555 383 Q575 398 584 391 Q579 376 558 377Z"/><path d="M580 379 Q601 362 596 354 Q577 357 573 375Z"/></g>
+  <g fill="#f397b9" stroke="#fff7fa" stroke-width="2"><circle cx="426" cy="368" r="8"/><circle cx="453" cy="386" r="7"/><circle cx="547" cy="386" r="7"/><circle cx="585" cy="367" r="8"/></g>
+  <g fill="url(#gold)"><circle cx="426" cy="368" r="2.8"/><circle cx="453" cy="386" r="2.5"/><circle cx="547" cy="386" r="2.5"/><circle cx="585" cy="367" r="2.8"/></g>
+  <!-- custom-styled wordmark -->
+  <text x="500" y="446" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="69" font-weight="bold" font-style="italic" letter-spacing="1" fill="#fff" stroke="#fff" stroke-width="13" stroke-linejoin="round">Bunny Hop</text>
+  <text x="500" y="446" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="69" font-weight="bold" font-style="italic" letter-spacing="1" fill="url(#pink)" stroke="#a83768" stroke-width="1.5" paint-order="stroke">Bunny Hop</text>
+  <path d="M327 465 Q500 482 673 465" fill="none" stroke="url(#gold)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M355 472 Q500 486 645 472" fill="none" stroke="#f0a1bd" stroke-width="1.5"/>
+  <text x="500" y="512" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="27" font-weight="bold" letter-spacing="9" fill="#9d4d6d">A D V E N T U R E</text>
+  <!-- decorative stars, diamonds, and tiny leaves -->
+  <g fill="url(#gold)" stroke="#fff4d5" stroke-width="1">
+    <path d="M365 291 L371 309 L389 315 L371 321 L365 339 L359 321 L341 315 L359 309Z"/><path d="M635 291 L641 309 L659 315 L641 321 L635 339 L629 321 L611 315 L629 309Z"/>
+    <path d="M393 124 L397 135 L408 139 L397 143 L393 154 L389 143 L378 139 L389 135Z"/><path d="M607 124 L611 135 L622 139 L611 143 L607 154 L603 143 L592 139 L603 135Z"/>
+    <path d="M316 421 L320 432 L331 436 L320 440 L316 451 L312 440 L301 436 L312 432Z"/><path d="M684 421 L688 432 L699 436 L688 440 L684 451 L680 440 L669 436 L680 432Z"/>
+  </g>
+  <g fill="#ec8eb0"><circle cx="383" cy="357" r="3"/><circle cx="617" cy="357" r="3"/><circle cx="406" cy="230" r="2.5"/><circle cx="594" cy="230" r="2.5"/><circle cx="379" cy="403" r="2.5"/><circle cx="621" cy="403" r="2.5"/></g>
+</svg>
